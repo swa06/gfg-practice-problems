@@ -1,3 +1,6 @@
+import bitwiseOperator.KthBitSetChecker;
+import bitwiseOperator.PowerOfTwo;
+import bitwiseOperator.SetBitsCounter;
 import mathematics.*;
 
 public class Tester {
@@ -24,8 +27,14 @@ public class Tester {
 //        allDivisorProblem.printAllDivisor(15);
 //        SieveOfEratosthenes sieveOfEratosthenes = new SieveOfEratosthenes();
 //        sieveOfEratosthenes.findPrimesTillN(18);
-        CalculatePower calculatePower = new CalculatePower();
+//        CalculatePower calculatePower = new CalculatePower();
 //        System.out.println(calculatePower.calculatePower(2,3));
-        System.out.println(Math.pow(2,3));
+//        System.out.println(Math.pow(2,3));
+//        KthBitSetChecker kthBitSetChecker = new KthBitSetChecker();
+//        kthBitSetChecker.isKthBitSet(2,2);
+//        SetBitsCounter setBitsCounter = new SetBitsCounter();
+//        System.out.println(setBitsCounter.countSetBits(7));
+        PowerOfTwo powerOfTwo = new PowerOfTwo();
+        System.out.println(powerOfTwo.isPowerOfTwo(2));
     }
 }
